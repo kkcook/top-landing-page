@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #1F2937;
+  padding: 0 30px;
 }
 
 .logo {
@@ -18,21 +19,20 @@
 .top-links {
   display: flex;
   list-style-type: none;
-  align-items: center;
 }
 
-.header a {
+a {
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
-  padding: 0 15px;
+  padding-left: 30px;
 }
 
 
-.footer {
+.hero-block {
   display: flex;
-  justify-content: center;
   background-color: #1F2937;
+  padding: 0 30px;
 }
 
 
@@ -43,7 +43,7 @@
   color: #F9FAF8;
 }
 
-.hero p {
+.hero-block p {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -68,4 +68,10 @@ button,
   font-weight: lighter;
   font-style: italic;
   color: #1F2937;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
 }
