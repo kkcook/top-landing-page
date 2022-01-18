@@ -1,11 +1,26 @@
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+h3 {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
 .header,
 .footer {
   background-color: #1F2937;
 }
 
-h1 {
-  font-size: 48px;
-  font-weight: bolder;
-  color: #F9FAF8;
+.header a,
+.hero p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
 
+button,
+.action-call {
+  background-color: #3882F6;
 }
