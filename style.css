@@ -1,10 +1,10 @@
-h1 {
+.hero .main-text {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
 }
 
-h3 {
+.header .logo {
   font-size: 24px;
   color: #F9FAF8;
 }
@@ -21,6 +21,12 @@ h3 {
 }
 
 button,
-.action-call {
+.action-block {
   background-color: #3882F6;
+}
+
+.info-block .title {
+  font-weight: 36px;
+  font-weight: bolder;
+  color: #1F2937;
 }
