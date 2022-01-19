@@ -54,12 +54,18 @@ button {
   color: #E5E7EB;
 }
 
-/* --- Action --- */
-.action-block {
-  background-color: #3882F6;
-}
 
 /* --- Info --- */
+.info-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.graphic-block {
+  display: flex;
+  justify-content: space-around;
+}
+
 .info-block .title {
   font-weight: 36px;
   font-weight: bolder;
@@ -76,6 +82,12 @@ button {
   font-weight: lighter;
   font-style: italic;
   color: #1F2937;
+}
+
+
+/* --- Action --- */
+.action-block {
+  background-color: #3882F6;
 }
 
 /* --- Footer --- */
