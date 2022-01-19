@@ -59,11 +59,19 @@ button {
 .info-block {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .graphic-block {
   display: flex;
   justify-content: space-around;
+}
+
+.graphic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .info-block .title {
