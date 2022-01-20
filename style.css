@@ -18,7 +18,7 @@ button {
 }
 
 /* --- Header --- */
-.header {
+.header.block {
   display: flex;
   justify-content: space-between;
   background-color: #1F2937;
@@ -103,8 +103,16 @@ button {
 
 
 /* --- Action --- */
-.action-block {
+.action.block {
+  display: flex;
   background-color: #3882F6;
+  padding: 20px;
+}
+
+.action.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* --- Footer --- */
