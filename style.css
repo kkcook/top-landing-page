@@ -17,9 +17,12 @@ button {
   border-color: #1F2937;
 }
 
+.block {
+  display: flex;
+}
+
 /* --- Header --- */
 .header.block {
-  display: flex;
   justify-content: space-between;
   background-color: #1F2937;
   padding: 0 30px;
@@ -38,21 +41,17 @@ button {
 }
 
 /* --- Hero --- */
-.hero-block {
-  display: flex;
+.hero.block {
   background-color: #1F2937;
   padding: 0 30px;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
-.hero-text {
+.hero.text {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
-}
-
-.hero-block p {
-  font-size: 18px;
-  color: #E5E7EB;
 }
 
 /* --- Info --- */
