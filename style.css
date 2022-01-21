@@ -1,6 +1,14 @@
+
+/* global styles */
+
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin-top: 0;
 }
+
+/* typography */
+
+
 
 a {
   font-size: 18px;
@@ -21,7 +29,7 @@ button {
   display: flex;
 }
 
-/* --- Header --- */
+/* --- header --- */
 .header.block {
   justify-content: space-between;
   background-color: #1F2937;
@@ -40,8 +48,9 @@ button {
   list-style-type: none;
 }
 
-/* --- Hero --- */
+/* --- hero --- */
 .hero.block {
+  display: flex;
   background-color: #1F2937;
   padding: 0 30px;
   font-size: 18px;
@@ -54,7 +63,7 @@ button {
   color: #F9FAF8;
 }
 
-/* --- Info --- */
+/* --- info --- */
 .info-block {
   display: flex;
   flex-direction: column;
@@ -81,7 +90,7 @@ button {
   color: #1F2937;
 }
 
-/* --- Quote --- */
+/* --- quote --- */
 .quote-block {
   display: flex;
   flex-direction: column;
@@ -101,7 +110,7 @@ button {
 }
 
 
-/* --- Action --- */
+/* --- action --- */
 .action.block {
   display: flex;
   background-color: #3882F6;
@@ -114,7 +123,7 @@ button {
   justify-content: center;
 }
 
-/* --- Footer --- */
+/* --- footer --- */
 .footer {
   display: flex;
   justify-content: center;
