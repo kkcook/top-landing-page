@@ -8,13 +8,10 @@
 
 /* typography */
 
-
-
 a {
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
-  padding-left: 30px;
 }
 
 button {
@@ -23,10 +20,6 @@ button {
   padding: 5px 25px;
   border-style: solid;
   border-color: #1F2937;
-}
-
-.block {
-  display: flex;
 }
 
 /* --- header --- */
