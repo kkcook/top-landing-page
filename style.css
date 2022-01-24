@@ -7,6 +7,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* typography */
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
 
 /* links and buttons */
 
@@ -46,18 +53,18 @@ button {
 }
 
 /* --- hero --- */
-.hero.block {
+.hero {
   display: flex;
+  justify-content: space-between;
   background-color: #1F2937;
-  padding: 0 30px;
+  padding: 30px 30px;
   font-size: 18px;
   color: #E5E7EB;
 }
 
-.hero.text {
-  font-size: 48px;
-  font-weight: bolder;
-  color: #F9FAF8;
+.hero>.container {
+  width: 600px;
+  align-self: center;
 }
 
 /* --- info --- */
